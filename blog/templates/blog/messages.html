@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>메세지</title>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+
+    <style>
+
+    ul{
+    width: 80%;
+    height: 20%
+    }
+
+    p{
+        color: pink;
+    }
+
+
+
+    </style>
+
+
+</head>
+<body>
+<br><br>
+
+<center>
+  <ul class="nav nav-tabs">
+
+        <li role="presentation"><a href="{% url 'home' %}">홈</a></li>
+        <li role="presentation" ><a href="{% url 'story' %}">이야기들</a></li>
+      <li role="presentation"><a href="{% url 'new' %}">글쓰기</a></li>
+      <li role="presentation"><a href="{% url 'messages' %}">메세지</a></li>
+    </ul>
+
+
+    <br><br><br><br>
+   <h3><p> p.s </p>
+
+       <br> 김윤아 - #1 / 있지 / 미안해 널 미워해
+       <br> Billie Eilish - Wish You Were Gay
+       <br> Oasis - Chapagne Supernova
+       <br> 경제환 - 니가 돌아올 희망은 없단 걸 알아
+       <br> 서울문 - 우리들의 지난 여름 밤
+       <br> Adam Levine - Lost Stars
+       <br><br>
+       <p>추천해✨</p></h3>
+
+
+</center>
+
+
+
+
+</body>
+</html>
